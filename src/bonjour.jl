@@ -1,0 +1,1 @@
+bonjour() = "coucou le monde!"
