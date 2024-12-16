@@ -1,6 +1,6 @@
-using Toto
+using SurvivalRomaneSoheil
 using Test
 
-@testset "Toto.jl" begin
+@testset "SurvivalRomaneSoheil.jl" begin
     # Write your tests here.
 end
