@@ -1,4 +1,4 @@
-using Toto
+using SurvivalRomaneSoheil
 using Plots
 using KernelDensity
 
@@ -12,7 +12,7 @@ groups = ["A","B","B","B","A","B","A","A","A","B"]
 
 #test Kaplan Meier
 ###################################################################################################
-#= results = kaplan_meier(times, events, groups)
+results = kaplan_meier(times, events, groups)
 
 plt = plot(title="Kaplan-Meier Survival Curves", 
            xlabel="Time", 
@@ -26,7 +26,7 @@ for g in unique_groups
     plot!(plt, group_times, group_surv_prob, label="Group $g",line=:step)
 end
 
-display(plt) =#
+display(plt)
 ###################################################################################################################
 
 #test visualisation
